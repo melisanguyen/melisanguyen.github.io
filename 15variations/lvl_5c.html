@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <meta charset="utf-8">
+      <title>Credo</title>
+      <style media="screen">
+
+      body, html{
+        font-family: arial;
+        margin: 0;
+
+      }
+
+      .title{
+        position: fixed;
+        margin-left: 30px;
+        font-size: 50pt;
+      }
+
+      #tserif{
+        font-family: serif;
+        text-decoration: line-through;
+        transform: scale(-1);
+      }
+
+      #thelv{
+        font-family: helvetica;
+        color: white;
+        background-color: black;
+        font-size: 45pt;
+        letter-spacing: -3pt;
+        margin-top: 75px;
+        margin-left: 30px;
+        position: absolute;
+        -webkit-animation-name: motion;
+        -webkit-animation-duration: 6s;
+        animation-name: motion;
+        animation-duration: 6s;
+        animation-fill-mode: forwards;
+      }
+
+      @keyframes motion {
+        0%   {background-color:black; left:0; top:50px;}
+        50%  {background-color:red; left:900px; top:50px;}
+        100%  {background-color:blue; left:900px; top:550px;}
+      }
+
+      .container{
+        width: 800px;
+        /*height: 600px;*/
+        border: 5pt solid black;
+    background-color: white;
+        margin-top: 50px;
+        margin-left: 300px;
+        padding: 20px;
+      }
+
+      /*.container:hover{
+        background-color: yellow;
+      }*/
+
+      .start{
+        font-size: 15pt;
+        -webkit-columns: 100px 2; /* Chrome, Safari, Opera */
+        -moz-columns: 100px 2; /* Firefox */
+        columns: 100px 2;
+      }
+
+      /*#start:hover{
+        opacity: 1;
+      }*/
+
+      .L1{
+        font-size: 12pt;
+        font-weight: bold;
+        opacity: 0;
+      }
+
+      .L1:hover{
+        opacity: 1;
+        background-color: #ffc220;
+      }
+
+      .L2{
+        font-size: 15pt;
+        font-style: italic;
+        opacity: 0;
+      }
+
+      .L2:hover{
+        opacity: 1;
+        background-color: #c9f6ff;
+      }
+
+      .L3{
+        font-size: 14pt;
+        font-weight: bold;
+        opacity: 0;
+      }
+
+      .L3:hover{
+        opacity: 1;
+        background-color: #eacdb5;
+      }
+
+
+      </style>
+    </head>
+
+
+
+    <body>
+
+      <div class="title">
+        <div id="tserif">Bob</div><br>
+        <div id="tserif">Noorda</div>
+      </div>
+
+      <div id="thelv">CREDO</div>
+
+      <div class="container">
+        <div class="start">
+          <ol>
+          <li><div class="L1">I believe that, whatever design problem you need to solve, you should face it with rationality, logic and careful analysis if you want to get to the right idea.</div></li><br>
+
+          <li><div class="L2">Graphic design is always a synthetic work: you need to reduce and remove until you reach the core of the message. When you work with typography and lettering, the essential goal is to obtain the best possible legibility.</div> </li><br>
+
+          <li><div class="L3">To achieve this result, it is fundamental to know typography and its history. The computer has become an essential tool but its undisputed utility and versatility cannot replace knowledge.</div></li><br>
+
+          <li><div class="L2">As extraordinary as this instrument can be, you need deep roots and the ability to express yourself even with the simplest tools—such as a pencil—in order to use it correctly. A good software does not necessarily create good graphics. </div></li><br>
+
+          <li><div class="L3">Graphics is not an independent art, but a service. To obtain a correct result, you need to put yourself on the side of the observer, on the side of the public.</div></li><br>
+
+          <li><div class="L1">A good designer is the one who offers a good service through communication, not the one who wants to surprise at any cost, neither the one who wants to show how good he is.</div></li><br>
+
+          <li><div class="L2">A designer is good if he can solve a problem, if he puts forward a useful solution.</div></li><br>
+
+          <li><div class="L3">I believe that these rules could be a good start for a career in design.</div></li>
+          </ol>
+        </div>
+      </div>
+
+
+
+
+    </body>
+  </html>

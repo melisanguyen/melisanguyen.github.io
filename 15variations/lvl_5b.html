@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <meta charset="utf-8">
+      <title>Credo</title>
+      <style media="screen">
+      body, html {
+        background-color: blue;
+        width: 1200px;
+        margin: 0;
+        font-family: helvetica;
+        font-weight: bold;
+      }
+
+      .box{
+        position: fixed;
+        display: inline-block;
+        width:400px;
+        height: 750px;
+        background-color: yellow;
+        -webkit-animation: mymove 5s infinite; /* Chrome, Safari, Opera */
+        animation: mymove 5s infinite;
+      }
+
+      /* Chrome, Safari, Opera */
+      @-webkit-keyframes mymove {
+        from {background-color: yellow;}
+        to {background-color: pink;}
+      }
+
+      @keyframes mymove {
+        from {background-color: yellow;}
+        to {background-color: pink;}
+      }
+
+      #title{
+        color: red;
+        position: fixed;
+        bottom: 20px;
+        font-size: 50pt;
+        margin-left: 70px;
+        text-align: right;
+
+      }
+
+      /*#bob{
+        letter-spacing: 10pt;
+      }*/
+
+      .main{
+        width: 600px;
+        padding-top: 50px;
+        padding-bottom: 20px;
+        margin-left: 450px;
+        font-size: 20pt;
+        color: white;
+        text-align: justify;
+      }
+
+      .italic{
+        display: inline;
+      }
+
+      .italic:hover{
+        cursor: pointer;
+        font-style: italic;
+        color: #00cc00;
+
+      }
+
+      .end{
+        width: 600px;
+        padding-top: 20px;
+        margin-left: 450px;
+        margin-bottom: 50px;
+        font-size: 35pt;
+        color: white;
+        text-align: left;
+        line-height: 35pt;
+      }
+
+
+
+      </style>
+
+
+
+    </head>
+
+
+
+
+
+    <body>
+
+
+
+      <div class="box">
+        <div id="title">
+  
+          CREDO<br>
+          <div id="bob">
+          by BOB
+          </div>
+          NOORDA
+        </div>
+      </div>
+
+      <div class="end">
+        I believe that these rules could be a good start for a career in design.
+      </div>
+
+      <div class="main">
+        I believe that, whatever design problem you need to solve, you should face it with <div class="italic">rationality, logic and careful analysis</div> if you want to get to the right idea. <div class="italic">Graphic design is always a synthetic work:</div> you need to reduce and remove until you reach the core of the message. When you work with typography and lettering, the essential goal is to obtain the best possible legibility. To achieve this result, it is <div class="italic">fundamental to know typography and its history.</div> The computer has become an essential tool but its undisputed utility and versatility cannot replace knowledge. As extraordinary as this instrument can be, <div class="italic">you need deep roots and the ability to express yourself</div> even with the simplest tools—such as a pencil—in order to use it correctly. A good software does not necessarily create good graphics. <div class="italic">Graphics is not an independent art, but a service.</div> To obtain a correct result, you need to put yourself on the side of the observer, on the side of the public. A good designer is the one who <div class="italic">offers a good service through communication</div>, not the one who wants to surprise at any cost, neither the one who wants to show how good he is. A designer is good if he can solve a problem, if he <div class="italic">puts forward a useful solution.</div>
+
+      </div>
+
+
+
+
+      <div class="box2">
+      </div>
+
+
+
+    </body>
+  </html>

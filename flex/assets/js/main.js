@@ -70,11 +70,4 @@ $('.thumbnail').click(function(event) {
 
 
 
-
-
-
-
-
-
-
   });

@@ -74,14 +74,11 @@ img {
 }
 
 
-/*.waves img{
-  max-height: 600px;
-}*/
-
-.giffy img{
+/*.giffy img{
   max-width: none;
   max-height: none;
-}
+}*/
+
 .col1of4{
   flex-wrap: nowrap;
 }
@@ -99,18 +96,10 @@ img {
   content: counter(section);
 }
 
-/*.col3of4 img{
-  max-width: 400px;
-}*/
-
 .col4of4 {
   flex: 0 0 25%;
 }
 
-/*.col4of4 img{
-  max-width: 700px;
-  max-height: auto;
-}*/
 
 .hide{
   display: none;
