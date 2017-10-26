@@ -2,55 +2,233 @@
   <html>
     <head>
       <meta charset="utf-8">
+      <link href="https://fonts.googleapis.com/css?family=Francois+One|Lobster" rel="stylesheet">
       <title>Credo</title>
 
       <style media="screen">
 
-      body{
-        
+        body, html{
+          background-color: white;
+          font-family: arial;
+          margin-top: 20px;
+        }
 
-      }
+        .header1{
+          position: fixed;
+          font-family: 'Lobster', cursive;
+          font-size: 80px;
+          top: 40%;
+          left: 20%;
+          line-height: 55pt;
+        }
 
-      #box{
-        position: fixed;
-        top: 140px;
-        left: -30px;
-      }
+        .name{
+          position: fixed;
+          font-family: 'Lobster', cursive;
+          font-size: 40px;
+          bottom: 30%;
+          right: 20%
+        }
 
-      #title{
-        font-family: helvetica;
-        font-size: 50pt;
-        color: #000080;
-        position: fixed;
-        top: 80px;
-      }
+        .container{
+          text-align: center;
+        }
 
+        .button {
+          display: inline-block;
+          margin: 5px;
+          background: blue;
+          border-radius: 50%;
+          height: 150px;
+          width: 150px;
+          transition: all .3s ease-in-out;
+        }
+
+        .button:hover {
+          border-radius:0;
+          cursor: pointer;
+          text-decoration: none;
+        }
+
+        .text {
+          font-family: 'Francois One', sans-serif;
+          font-size: 20pt;
+          color: #fff;
+          opacity: 0;
+          text-align: center;
+          padding-top: 55px;
+          transition: all .3s ease-in-out;
+        }
+
+        .button:hover .text {
+          text-decoration: none;
+          opacity: 1;
+        }
+
+        #lvl1a{
+          background: url(assets/images/onea.jpg);
+        }
+
+        #lvl1b{
+          background: url(assets/images/oneb.jpg);
+        }
+
+        #lvl1c{
+          background: url(assets/images/onec.jpg);
+        }
+
+        #lvl2a{
+          background: url(assets/images/twoa.jpg);
+        }
+
+        #lvl2b{
+          background: url(assets/images/twob.jpg);
+        }
+
+        #lvl2c{
+          background: url(assets/images/twoc.jpg);
+        }
+
+        #lvl3a{
+          background: url(assets/images/threea.jpg);
+        }
+
+        #lvl3b{
+          background: url(assets/images/threeb.jpg);
+        }
+
+        #lvl3c{
+          background: url(assets/images/threec.jpg);
+        }
+
+        #lvl4a{
+          background: url(assets/images/foura.jpg);
+        }
+
+        #lvl4b{
+          background: url(assets/images/fourb.jpg);
+        }
+
+        #lvl4c{
+          background: url(assets/images/fourc.jpg);
+        }
+
+        #lvl5a{
+          background: url(assets/images/fivea.jpg);
+        }
+
+        #lvl5b{
+          background: url(assets/images/fiveb.jpg);
+        }
+
+        #lvl5c{
+          background: url(assets/images/fivec.jpg);
+        }
 
 
 
       </style>
-
     </head>
 
-    <body>
 
-      <div id="project">
-        Project One // Melisa Nguyen
-      </div>
+      <body>
 
-      <div id="box">
-        <img src="assets/images/linework.jpg">
-      </div>
+        <div class="header1">
+          project<br>
+          one
+        </div>
 
-      <div id="title">
-        Credo.
-      </div>
+        <div class="name">
+          melisa nguyen
+        </div>
 
 
+        <div class="container">
+
+            <a href="lvl_1a.html" class="button" id="lvl1a">
+                <div class="text">Level 1 A</div>
+            </a>
+
+<br>
+
+            <a href="lvl_1b.html" class="button" id="lvl1b">
+                <div class="text">Level 1 B</div>
+            </a>
+
+            <a href="lvl_1c.html" class="button" id="lvl1c">
+                <div class="text">Level 1 C</div>
+            </a>
+
+<br>
+
+            <a href="lvl_2a.html" class="button" id="lvl2a">
+                <div class="text">Level 2 A</div>
+            </a>
+
+<br>
+
+            <a href="lvl_2b.html" class="button" id="lvl2b">
+                <div class="text">Level 2 B</div>
+            </a>
+
+            <a href="lvl_2c.html" class="button" id="lvl2c">
+                <div class="text">Level 2 C</div>
+            </a>
+
+<br>
+
+            <a href="lvl_3a.html" class="button" id="lvl3a">
+                <div class="text">Level 3 A</div>
+            </a>
+
+<br>
+
+            <a href="lvl_3b.html" class="button" id="lvl3b">
+                <div class="text">Level 3 B</div>
+            </a>
+
+            <a href="lvl_3c.html" class="button" id="lvl3c">
+                <div class="text">Level 3 C</div>
+            </a>
+
+<br>
+
+            <a href="lvl_4a.html" class="button" id="lvl4a">
+                <div class="text">Level 4 A</div>
+            </a>
+
+<br>
+
+            <a href="lvl_4b.html" class="button" id="lvl4b">
+                <div class="text">Level 4 B</div>
+            </a>
+
+            <a href="lvl_4c.html" class="button" id="lvl4c">
+                <div class="text">Level 4 C</div>
+            </a>
+
+<br>
+
+            <a href="lvl_5a.html" class="button" id="lvl5a">
+                <div class="text">Level 5 A</div>
+            </a>
+
+<br>
+
+            <a href="lvl_5b.html" class="button" id="lvl5b">
+              <div class="text">Level 5 B</div>
+            </a>
+
+            <a href="lvl_5c.html" class="button" id="lvl5c">
+              <div class="text">Level 5 C</div>
+            </a>
 
 
 
 
+        </div>
 
 
-    </body>
+      </body>
+
+  </html>
