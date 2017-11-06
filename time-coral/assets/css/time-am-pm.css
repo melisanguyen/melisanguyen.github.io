@@ -1,0 +1,7 @@
+body.am .transparency{
+  display: none;
+}
+
+body.pm .transparency{
+  display: block;
+}
